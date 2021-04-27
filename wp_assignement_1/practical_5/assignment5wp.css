@@ -1,0 +1,134 @@
+body {
+  margin: 0px;
+}
+.main {
+  display: flex;
+}
+.left-panel {
+  padding: 3rem;
+  width: 23%;
+  background-color: #380af2;
+  box-sizing: border-box;
+  text-align: center;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.left-panel img {
+  width: 36px;
+  height: 36px;
+}
+.left-panel p {
+  color: white;
+  font-size: 19px;
+  margin: 10px;
+}
+.nav ol {
+  margin-top: 60px;
+  /* padding: 13px; */
+  text-align: left;
+
+  list-style: none;
+}
+.nav ol li {
+  padding: 14px;
+}
+.nav ol li a {
+  font-size: 17px;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+}
+a:active {
+  color: green;
+}
+.right-panel {
+  width: 77%;
+  /*background-color: turquoise;*/
+}
+.mainimage {
+  width: 77%;
+  height: 74%;
+  position: absolute;
+  left: 314px;
+  top: 0px;
+}
+.content {
+  position: relative;
+  top: 478px;
+  left: 313px;
+  padding: 3rem;
+}
+.content h2 {
+  color: #2236f0;
+  font-size: 28px;
+  margin: 0px;
+  font-weight: normal;
+}
+.content p {
+  color: #5b5b5c;
+  line-height: 29px;
+  font-size: 22px;
+}
+
+.second-content {
+  display: flex;
+  margin-top: 50px;
+}
+.bevarages {
+  margin-right: 23px;
+  width: 227px;
+}
+.team p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+/*.read{
+    text-decoration: none;
+    color: white;
+    background-color: #380af2;
+    padding: 14px 29px;
+    font-size: 18px;
+}*/
+button.redbtn {
+  border: none;
+  padding: 0px;
+  margin-top: 44px;
+  /* background-color: white; */
+}
+button.redbtn a {
+  text-decoration: none;
+  color: white;
+  background-color: #380af2;
+  padding: 14px 29px;
+  font-size: 18px;
+}
+.heading2 {
+  margin-top: 65px;
+}
+
+.gallery-one {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+}
+.gallery-one img {
+  width: 175px;
+}
+.gallery-second {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+}
+.gallery-second img {
+  width: 305px;
+}
+.gallery-third {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+}
+.gallery-third img {
+  width: 20px;
+}

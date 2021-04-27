@@ -11,8 +11,8 @@ function validateEmail(email, domains) {
   }
 }
 
-const email1 = 'dhaiwatpandya@gmail.com';
-const email2 = 'dhaiwatpandya@test.com';
+const email1 = 'vnazeeh@gmail.com';
+const email2 = 'vnazeeh@test.com';
 
 const allowedDomains = ['gmail.com', 'yahoo.com'];
 
